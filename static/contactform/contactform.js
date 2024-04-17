@@ -92,7 +92,7 @@ jQuery(document).ready(function($) {
     else var str = $(this).serialize();
     var action = $(this).attr('action');
     if( ! action ) {
-      action = 'localhost:8080';
+      action = 'contactform/contactform.php';
     }
     $.ajax({
       type: "POST",
